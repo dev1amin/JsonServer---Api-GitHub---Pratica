@@ -117,7 +117,7 @@ h2 {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: black;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -177,7 +177,7 @@ h2 {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: black;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -192,7 +192,7 @@ h2 {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: black;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -202,7 +202,7 @@ h2 {
 .swiper-slide a {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: black;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -213,12 +213,12 @@ h2 {
 }
 
 .swiper-button-next, .swiper-button-prev {
-    color: #007bff;
+    color: black;
     font-size: 18px;
 }
 
 .swiper-pagination-bullet {
-    background: #007bff;
+    background: black;
 }
 
 .colleagues-section {
@@ -263,7 +263,7 @@ h2 {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: black;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
