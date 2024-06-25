@@ -1,0 +1,32 @@
+{
+    "highlights": [
+      {
+        "id": 1,
+        "title": "Trabalho PetFriendly",
+        "description": "Trabalho da faculdade sobre pets",
+        "coverImageUrl": "https://i.imgur.com/CBcb1mb.png",
+        "contentUrl": "https://ipet-two.vercel.app/"
+      },
+      {
+        "id": 2,
+        "title": "Destaque 2",
+        "description": "Descrição do Destaque 2",
+        "coverImageUrl": "url_da_imagem_de_capa_do_destaque2",
+        "contentUrl": "url_do_conteúdo2"
+      }
+    ],
+    "colleagues": [
+      {
+        "id": 1,
+        "photoUrl": "https://avatars.githubusercontent.com/u/99412966?v=4",
+        "name": "Luan Carvalho",
+        "githubProfileUrl": "https://github.com/luancarvalho7"
+      },
+      {
+        "id": 2,
+        "photoUrl": "https://i.imgur.com/mRUgpnB.png",
+        "name": "Gabriel Rocha",
+        "githubProfileUrl": "https://github.com/rocha1579"
+      }
+    ]
+  }

@@ -1,0 +1,316 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-section img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.profile-section div {
+    flex: 1;
+}
+
+.profile-section h3 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-section p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.profile-section a:hover {
+    background-color: #0056b3;
+}
+
+.repositories-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+}
+
+.repositories-section .repo {
+    flex: 1 1 calc(33.333% - 20px);
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.repositories-section .repo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.repositories-section .repo h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.repositories-section .repo p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.repositories-section .repo a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.repositories-section .repo a:hover {
+    background-color: #0056b3;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.swiper-slide img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.swiper-slide h4 {
+    color: #333;
+    margin: 10px 0;
+}
+
+#repositories-container{
+    text-align: center;
+}
+
+#repository-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#repository-details h2 {
+    font-size: 2em;
+}
+
+#repository-details p {
+    font-size: 1.2em;
+}
+
+#repository-details a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.swiper-slide p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#toggleButton{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.swiper-slide a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.swiper-slide a:hover {
+    background-color: #0056b3;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #007bff;
+    font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+    background: #007bff;
+}
+
+.colleagues-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#section4{
+    margin-top: 70px;
+}
+
+.colleague {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    width: 250px;
+}
+
+.colleague:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.colleague img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.colleague h4 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.colleague a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.colleague a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .repositories-section .repo {
+        flex: 1 1 100%;
+    }
+
+    .colleagues-section .colleague {
+        width: 100%;
+    }
+
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;    
+    }
+}
+
+#section3{
+    position: relative;
+}
+.swiper-slide {
+    width: 100% !important;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}

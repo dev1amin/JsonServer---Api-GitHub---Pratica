@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <h1>Amin Morais</h1>
+        <nav>
+            <a href="#section1">Perfil</a>
+            <a href="#section2">Repositórios</a>
+            <a href="#section3">Conteúdo Sugerido</a>
+            <a href="#section4">Colegas de Trabalho</a>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>Perfil</h2>
+            <div id="profile" class="profile-section">
+            </div>
+        </section>
+        <section id="section2">
+            <h2>Repositórios</h2>
+            <div id="repositories-container">
+                <div id="repositories" class="repositories-section"></div>
+                <p style="color: gray; font-size: 11px;">obs: nem todos os meus repositórios tem descrição ai por isso ficam como "null"</p>   
+                <button id="toggleButton">Ver Mais</button>
+            </div>         
+        </section>
+        <section id="section3">
+            <h2>Conteúdo Sugerido</h2>
+            <div id="suggestedContent" class="swiper-container">
+                <div class="swiper-wrapper">
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section id="section4">
+            <h2>Colegas de Trabalho</h2>
+            <div id="colleagues" class="colleagues-section">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Feito com ❤️ com by Amin :)</p>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/scripts/app.js"></script>
+</body>
+</html>
