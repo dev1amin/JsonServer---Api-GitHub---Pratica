@@ -78,10 +78,6 @@ h2 {
     margin-bottom: 10px;
 }
 
-.profile-section a:hover {
-    background-color: #0056b3;
-}
-
 .repositories-section {
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +120,7 @@ h2 {
 }
 
 .repositories-section .repo a:hover {
-    background-color: #0056b3;
+    background-color: #292c30;
 }
 
 .swiper-container {
